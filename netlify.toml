@@ -1,0 +1,6 @@
+[build]
+  command = "composer install && php -S localhost:8888"
+  publish = "public"
+
+[functions]
+  phpmailer = "phpmailer.php"
